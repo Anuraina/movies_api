@@ -44,7 +44,7 @@ app.post("/movies", async (req, res, next) => {
 // get movie api
 app.get("/movies", async (req, res, next) => {
   try {
-    let movies = await Movie.find();
+    let movies = await Movie.find(req.body);
     res
       .status(200)
       .json({ success: true, message: "Movie received.", data: movies });
