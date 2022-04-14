@@ -1,0 +1,37 @@
+[
+    {
+        "movieName": "Ishq",
+        "leadActor": "Aamir Khan",
+        "leadActress": "Kajol",
+        "releaseYear": 1997,
+        "directorName": "Indra Kumar"
+    },
+    {
+        "movieName": "Dilwale",
+        "leadActor": "Varun Dhawan",
+        "leadActress": "Kriti Shenon",
+        "releaseYear": 2015,
+        "directorName": "Rohit Shetti"
+    },
+    {
+        "movieName": "Mard",
+        "leadActor": "Amitabh Bachchan",
+        "leadActress": "Amrita Singh",
+        "releaseYear": 1985,
+        "directorName": "Anubhav Raina"
+    },
+    {
+        "movieName": "Players",
+        "leadActor": "Abhishek Bachchan",
+        "leadActress": "Vipasha Basu",
+        "releaseYear": 2012,
+        "directorName": "Abbas Bro"
+    },
+    {
+        "movieName": "Ishq 2",
+        "leadActor": "Ajay Devgan",
+        "leadActress": "Kajol",
+        "releaseYear": 1993,
+        "directorName": "Indra Kumar"
+    }
+]
