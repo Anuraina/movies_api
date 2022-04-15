@@ -27,7 +27,7 @@ mongoose
   });
 
 // save movie api
-app.post("/movies", async (req, res, next) => {
+app.post("/movies/save", async (req, res, next) => {
   try {
     await Movie.insertMany(req.body);
     res
@@ -42,7 +42,7 @@ app.post("/movies", async (req, res, next) => {
 });
 
 // get movie api
-app.get("/movies", async (req, res, next) => {
+app.post("/movies/get", async (req, res, next) => {
   try {
     let movies = await Movie.find(req.body);
     res
